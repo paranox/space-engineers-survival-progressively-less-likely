@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_VSFiles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Campaign>
+    <StateMachine>
+      <Nodes>
+        <MyObjectBuilder_CampaignSMNode>
+          <Name>Start</Name>
+          <SaveFilePath>Scenarios\Survival Progressively Less Likely\Worlds\Mission01\Sandbox.sbc</SaveFilePath>
+          <Location x="488" y="237" />
+        </MyObjectBuilder_CampaignSMNode>
+      </Nodes>
+      <Transitions />
+    </StateMachine>
+    <LocalizationPaths>
+      <Path>Scenarios\Survival Progressively Less Likely\Localization</Path>
+    </LocalizationPaths>
+    <LocalizationLanguages>
+      <Language>en-US</Language>
+    </LocalizationLanguages>
+    <Name>Survival Progressively Less Likely</Name>
+    <Description>In this scenario you can respawn on any Star System planet as you normally would. However, you will find that finding ores is more difficult. 
+
+You will have to travel to orbit, the nearby moon or even other planets for much easier to access to rare ores which aren't readily available in your starting planet.</Description>
+    <ImagePath>Scenarios\Survival Progressively Less Likely\Screens\Scenario.png</ImagePath>
+    <IsMultiplayer>true</IsMultiplayer>
+    <Difficulty>Normal</Difficulty>
+    <Order>0</Order>
+    <MaxPlayers>16</MaxPlayers>
+  </Campaign>
+</MyObjectBuilder_VSFiles>

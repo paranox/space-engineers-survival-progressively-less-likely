@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<MyObjectBuilder_VSFiles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StateMachine>
+    <Name>Mission01_SM</Name>
+    <OwnerId>0</OwnerId>
+    <Cursors>
+      <MyObjectBuilder_ScriptSMCursor>
+        <NodeName>Start</NodeName>
+      </MyObjectBuilder_ScriptSMCursor>
+    </Cursors>
+    <Nodes>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="341" y="252" />
+        <Name>Start</Name>
+        <ScriptFilePath>Scenarios\Survival Progressively Less Likely\Scripts\Mission01\Mission01_Start.vs</ScriptFilePath>
+        <ScriptClassName>Mission01_Start</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="525" y="248" />
+        <Name>Part</Name>
+        <ScriptFilePath>Scenarios\Survival Progressively Less Likely\Scripts\Mission01\Mission01_Part.vs</ScriptFilePath>
+        <ScriptClassName>Mission01_Part</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="710" y="244" />
+        <Name>End</Name>
+        <ScriptFilePath>Scenarios\Survival Progressively Less Likely\Scripts\Mission01\Mission01_End.vs</ScriptFilePath>
+        <ScriptClassName>Mission01_End</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+    </Nodes>
+    <Transitions>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Start</From>
+        <To>Part</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Part</From>
+        <To>End</To>
+      </MyObjectBuilder_ScriptSMTransition>
+    </Transitions>
+  </StateMachine>
+</MyObjectBuilder_VSFiles>
