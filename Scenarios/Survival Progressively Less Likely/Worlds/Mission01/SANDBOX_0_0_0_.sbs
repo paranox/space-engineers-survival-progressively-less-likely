@@ -10,13 +10,13 @@
       <MyObjectBuilder_GlobalEventBase>
         <SubtypeName>SpawnCargoShip</SubtypeName>
         <Enabled>true</Enabled>
-        <ActivationTimeMs>900000</ActivationTimeMs>
+        <ActivationTimeMs>857968</ActivationTimeMs>
       </MyObjectBuilder_GlobalEventBase>
     </Events>
   </SectorEvents>
-  <AppVersion>1194207</AppVersion>
+  <AppVersion>1194209</AppVersion>
   <Environment>
-    <SunAzimuth>-3.14159274</SunAzimuth>
+    <SunAzimuth>3.14159274</SunAzimuth>
     <SunElevation>0</SunElevation>
     <SunIntensity>0</SunIntensity>
     <FogMultiplier>0</FogMultiplier>
